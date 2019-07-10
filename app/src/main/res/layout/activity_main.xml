@@ -1,18 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content">
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button1"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:onClick="button2"
+            android:text="CD" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button3"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:onClick="button4"
+            android:text="DE" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button5"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button6"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:onClick="button7"
+            android:text="FG" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button8"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:onClick="button9"
+            android:text="GA" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button10"
+            android:text="A" />
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:onClick="button11"
+            android:text="AB" />
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button12"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:onClick="button13"
+            android:text="CB" />
+
+    </LinearLayout>>
+</RelativeLayout>
