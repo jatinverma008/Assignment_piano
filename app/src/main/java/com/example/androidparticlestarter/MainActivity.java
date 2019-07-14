@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "C";
+        String command = "C";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "CD";
+        String command = "CD";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "D";
+        String command = "D";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -232,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "DE";
+        String command = "DE";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "E";
+        String command = "E";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -296,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -331,7 +331,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "F";
+        String command = "F";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -345,7 +345,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -382,7 +382,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "FG";
+        String command = "FG";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -396,7 +396,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -432,7 +432,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "G";
+        String command = "G";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -446,7 +446,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -481,7 +481,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "GA";
+        String command = "GA";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -495,7 +495,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -532,7 +532,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "A";
+        String command = "A";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -546,7 +546,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -582,7 +582,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "AB";
+        String command = "AB";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -596,7 +596,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -632,7 +632,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "B";
+        String command = "B";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -646,7 +646,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
@@ -682,7 +682,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        String controlOfPiano = "C";
+        String command = "C";
 
         Async.executeAsync(ParticleCloudSDK.getCloud(), new Async.ApiWork<ParticleCloud, Object>() {
             @Override
@@ -696,7 +696,7 @@ public class MainActivity extends AppCompatActivity {
                 // call the "lights" function on the particle
 
                 List<String> functionParameters = new ArrayList<String>();
-                functionParameters.add(controlOfPiano);
+                functionParameters.add(command);
                 try {
                     mDevice.callFunction("chord", functionParameters);
                 } catch (ParticleDevice.FunctionDoesNotExistException e1) {
